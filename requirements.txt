@@ -1,0 +1,7 @@
+Flask==3.0.3
+opencv_python==4.10.0.84
+opencv_python_headless==4.10.0.84
+Pillow==10.0.0
+Pillow==11.0.0
+pytesseract==0.3.13
+transformers==4.45.2
