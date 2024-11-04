@@ -11,7 +11,7 @@
 `python -m venv venv`
 3. Activate this virtual environment from powershell.
 `venv/Scripts/activate`<br>
-Note: To deactivate you can enter `deactivate`, documentation <a href="https://docs.python.org/3/library/venv.html">here</a>.
+Note: To deactivate you can enter `deactivate`, documentation <a href="https://docs.python.org/3/library/venv.html" target="_blank">here</a>.
 4. Install the dependencies listed in the requirements.txt file.<br>
 `pip install -r requirements.txt`
 
