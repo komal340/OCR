@@ -9,7 +9,7 @@
 `cd OCR`
 2. Create a new virtual environment for python.<br>
 `python -m venv venv`
-3. Activate this virtual environment from powershell.
+3. Activate this virtual environment from powershell.<br>
 `venv/Scripts/activate`<br>
 Note: To deactivate you can enter `deactivate`, documentation <a href="https://docs.python.org/3/library/venv.html" target="_blank">here</a>.
 4. Install the dependencies listed in the requirements.txt file.<br>
