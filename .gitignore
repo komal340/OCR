@@ -1,2 +1,7 @@
 **/__pycache__/
 **/uploads/
+pyvenv.cfg
+**/Lib/
+**/Include/
+**/Scripts/
+**/share/
