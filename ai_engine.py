@@ -27,11 +27,12 @@ def extract_text_from_image(image_path):
 def summarize_text(text):
     if not text:
         return "No text found in the image."
-    else:
-        # Load the text summarization pipeline from transformers
-        summarizer = pipeline("summarization")
-        summary = summarizer(text, max_length=130, min_length=30, do_sample=False)[0][
-            "summary_text"
-        ]
-        print(f"Extracted summary: {summary}")
-        return summary
+
+    # Load the text summarization pipeline from transformers
+    summarizer = pipeline("summarization")
+    summary = summarizer(text, max_length=130, min_length=30, do_sample=False)[0][
+        "summary_text"
+    ]
+    print(f"Extracted summary: {summary}")
+
+    return summary
